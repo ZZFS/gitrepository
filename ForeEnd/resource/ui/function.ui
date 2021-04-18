@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Function</class>
+ <widget class="QWidget" name="Function">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1043</width>
+    <height>632</height>
+   </rect>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial Black</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_28">
+   <item>
+    <widget class="QStackedWidget" name="hand">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(68, 187, 116);
+</string>
+     </property>
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="hand_smart1">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="hand_horizontalLayout1" stretch="1,1,1,1,1,2">
+         <item>
+          <widget class="QPushButton" name="main_Button1">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>主界面</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="smart1_Button1">
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:Black;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>  界面1  </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="smart2_Button1">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面2  </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="expert_Button1">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="wood_Button1">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="hand_horizontalSpacer1">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="hand_smart2">
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="hand_horizontalLayout2" stretch="1,1,1,1,1,2">
+         <item>
+          <widget class="QPushButton" name="main_Button2">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>主界面</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="smart1_Button2">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面1  </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="smart2_Button2">
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:Black;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面2  </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="expert_Button2">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="wood_Button2">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="hand_horizontalSpacer2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="hand_expert">
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="hand_horizontalLayout3" stretch="1,1,1,1,1,2">
+         <item>
+          <widget class="QPushButton" name="main_Button3">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>主界面</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="smart1_Button3">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面1  </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="smart2_Button3">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面2  </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="expert_Button3">
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:Black;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="wood_Button3">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="hand_horizontalSpacer3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="hand_wood">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="hand_horizontalLayout4" stretch="1,1,1,1,1,2">
+         <item>
+          <widget class="QPushButton" name="main_Button4">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>主界面</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="smart1_Button4">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="smart2_Button4">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="expert_Button4">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:White;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="wood_Button4">
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border:none;color:Black;}
+QPushButton:hover{background-color: rgb(118, 186, 161);}
+QPushButton:checked{background-color:rgb(255, 255, 255);color:Black;}</string>
+           </property>
+           <property name="text">
+            <string>界面4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="hand_horizontalSpacer4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="down">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="smart1_page">
+      <layout class="QHBoxLayout" name="horizontalLayout_21">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>界面1</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="smart2_page">
+      <layout class="QVBoxLayout" name="verticalLayout_68">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>界面2</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="expert_page">
+      <layout class="QVBoxLayout" name="verticalLayout_27">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>界面3</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="wood_page">
+      <layout class="QHBoxLayout" name="horizontalLayout_25">
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>界面4</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
